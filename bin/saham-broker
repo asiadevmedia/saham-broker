@@ -1,0 +1,16 @@
+import os
+import sys
+import uuid
+import saham_broker
+from subprocess import call
+
+sys.tracebacklimit=0
+
+def main():
+	print ('Bot Pak Ferd Versi %s' % saham_broker.__version__);
+	path = os.path.dirname(saham_broker.__file__);
+	os.system('py ' + path + '\\start.py /dev/null');
+	
+
+if __name__ == '__main__':
+	main()
