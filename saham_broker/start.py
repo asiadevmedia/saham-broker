@@ -7,7 +7,6 @@ import pythoncom
 import win32com.client as client
 from telepot.loop import MessageLoop
 from func import *
-
 sys.tracebacklimit=0
 
 here = os.path.abspath(os.path.dirname(__file__))

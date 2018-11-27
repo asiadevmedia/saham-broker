@@ -27,7 +27,7 @@ def parse_requirements(filename):
 setup(
     name='saham-broker',
     version=find_version('saham_broker', '__init__.py'),
-    url='https://asiadevmeida.com',
+    url='https://github.com/asiadevmedia/saham-broker',
     author='Teguh Kings',
     author_email='asiadevmedia@gmail.com',
     license='MIT',

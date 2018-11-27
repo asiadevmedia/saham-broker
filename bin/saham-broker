@@ -3,7 +3,6 @@ import sys
 import uuid
 import saham_broker
 from subprocess import call
-
 sys.tracebacklimit=0
 
 def main():
