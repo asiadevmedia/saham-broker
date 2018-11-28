@@ -28,6 +28,7 @@ setup(
     name='saham-broker',
     version=find_version('saham_broker', '__init__.py'),
     url='https://github.com/asiadevmedia/saham-broker',
+    description='Bot telegram pak ferd',
     author='Teguh Kings',
     author_email='asiadevmedia@gmail.com',
     license='MIT',
